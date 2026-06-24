@@ -68,6 +68,7 @@ scp C:\Users\seeed\Downloads\hailort-pcie-driver_4.24.0_all.deb seeed@192.168.10
 scp C:\Users\seeed\Downloads\hailort-4.24.0-cp311-cp311-linux_aarch64.whl seeed@192.168.10.230:/home/seeed/
 scp C:\Users\seeed\Downloads\librknnrt.so seeed@192.168.10.230:/home/seeed/
 然后在RK3576终端执行：
+
 ```bash
 # Install the PCIe driver
 sudo dpkg -i hailort-pcie-driver_4.24.0_all.deb
