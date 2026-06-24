@@ -64,10 +64,11 @@ reComputer AI Lab 是 Seeed Studio 为 reComputer RK3576/RK3588 打造的一站�
 ### Windows PowerShell 上传deb包到RK3576
 在Windows终端(PowerShell/Windows Terminal)执行：
 
-
+```powershell
 scp C:\Users\seeed\Downloads\hailort-pcie-driver_4.24.0_all.deb seeed@192.168.10.230:/home/seeed/
 scp C:\Users\seeed\Downloads\hailort-4.24.0-cp311-cp311-linux_aarch64.whl seeed@192.168.10.230:/home/seeed/
 scp C:\Users\seeed\Downloads\librknnrt.so seeed@192.168.10.230:/home/seeed/
+```
 
 然后在RK3576终端执行：
 
