@@ -1,5 +1,5 @@
-# reComputer-RK3576-Hailo-8-AI-Lab-AI-
-reComputer RK3576 + Hailo-8：基于 AI Lab 平台的边缘 AI 部署指南
+# reComputer-RK3576-Hailo-8-AI
+reComputer RK3576 + Hailo-8：AI加速卡测评
 # 概述
 reComputer RK3576 是一款基于瑞芯微 RK3576 处理器的边缘 AI 计算设备，内置 6 TOPS NPU。通过 M.2 接口集成 Hailo-8 AI 加速模块后，总 AI 算力可扩展至 26 TOPS。
 
@@ -36,21 +36,6 @@ reComputer RK3576 和 Hailo-8 示意图如下图所示，其中左边为 reCompu
 ![硬件实拍图](./image/3.jpg)
 - **步骤3.** 固定螺丝，重新组装外壳。
 - **步骤4.** 连接电源、网线和必要外设，启动设备。
-
-# AI Lab 平台
-reComputer AI Lab 是 Seeed Studio 为 reComputer RK3576/RK3588 打造的一站式 AI 模型库。其核心特点包括：
-* 一键部署：选择一个预设，系统自动下载 Docker 镜像（1–4GB）并加载模型
-* 三套模型预设：目标检测、大模型对话、视觉对话，相互独立可同时部署
-* 标准 API 接口：REST + OpenAI 兼容接口，现有客户端可直接接入
-* NPU 加速：充分利用瑞芯微 NPU 和 Hailo-8 进行高效推理
-
-## 支持的预设与模型
-
-| 预设     | 模型                          | 适用场景                                   |
-| -------- | ----------------------------- | ------------------------------------------ |
-| 目标检测 | YOLO11n（极速/均衡/精确版）    | 图片或实时视频中识别 80 种常见物体         |
-| 大模型对话 | DeepSeek-R1（1.5B / 7B）     | OpenAI 兼容的本地对话 API                  |
-| 视觉对话 | Qwen2.5-VL                    | 看图说话、对图片提问                       |
 
 # reComputer RK3576 + Hailo-8 软件包部署指南
 
