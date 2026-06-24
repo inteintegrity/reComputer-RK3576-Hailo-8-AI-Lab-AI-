@@ -71,7 +71,7 @@ scp C:\Users\seeed\Downloads\librknnrt.so seeed@192.168.10.230:/home/seeed/
 `` ``` ``
 然后在RK3576终端执行：
 
-```bash
+`` ```bash ``
 # Install the PCIe driver
 sudo dpkg -i hailort-pcie-driver_4.24.0_all.deb
 
@@ -96,6 +96,6 @@ pip install hailort-4.23.0-cp311-cp311-linux_aarch64.whl
 
 # Verify installation and device connection
 python3 -c "from hailo_platform import VDevice; vdev = VDevice(); print('Successfully connected via VDevice! Device info:', vdev)"
-
+`` ``` ``
 
 
