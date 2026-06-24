@@ -70,13 +70,6 @@ scp C:\Users\seeed\Downloads\librknnrt.so seeed@192.168.10.230:/home/seeed/
 然后在RK3576终端执行：
 
 ```bash
-# 这里全部放Linux终端命令
-sudo apt update
-sudo dpkg -i xxx.deb
-ls /home/seeed
-
-
-```bash
 # Install the PCIe driver
 sudo dpkg -i hailort-pcie-driver_4.24.0_all.deb
 
@@ -101,12 +94,6 @@ pip install hailort-4.23.0-cp311-cp311-linux_aarch64.whl
 
 # Verify installation and device connection
 python3 -c "from hailo_platform import VDevice; vdev = VDevice(); print('Successfully connected via VDevice! Device info:', vdev)"
-
-
-## Install Hailo Model Zoo
-To run official pre-trained models, you need to install the Hailo Model Zoo and its system dependencies.
-
-```python
 
 
 
