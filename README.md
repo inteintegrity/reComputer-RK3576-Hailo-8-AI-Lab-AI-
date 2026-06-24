@@ -212,6 +212,7 @@ if __name__ == "__main__":
     main()
 ```
 运行结果：
+
 ![硬件实拍图](./image/Hailo-8实际检测画面.png)
 
 然后再创建一个python文件webcam_npu_save，让模型在RK3576在身的NPU上运行，代码如下：
@@ -393,6 +394,7 @@ if __name__ == "__main__":
     main()
 ```
 运行结果：
+
 ![硬件实拍图](./image/RK3576NPU检测画面.png)
 
 # 结论
